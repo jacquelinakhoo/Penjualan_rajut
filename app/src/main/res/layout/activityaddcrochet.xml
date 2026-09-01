@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="welcome to my shop"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textstyle="bold" />
+
+    <Button
+        android:id="@+id/CreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creations" />

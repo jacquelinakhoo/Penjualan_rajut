@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="welcome to my shop"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textstyle="bold" />
+
+    <Button
+        android:id="@+id/CreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creations" />
+
+    <Button
+        android:id="@+id/BuyerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buyer" />
+
+    <Button
+        android:id="@+id/BundleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bundles" />
+
+    <Button
+        android:id="@+id/blindboxesbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blindbox" />
+
+    <Button
+        android:id="@+id/CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom" />
+
+    <Button
+        android:id="@+id/SalesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales" />
+</LinearLayout>
