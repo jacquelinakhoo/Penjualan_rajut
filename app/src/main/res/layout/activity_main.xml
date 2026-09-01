@@ -14,22 +14,22 @@
         android:textstyle="bold" />
 
     <Button
-        android:id="@+id/CreationButton"
+        android:id="@+id/ButtonDatamobil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Creations" />
+        android:text="Data Mobil" />
 
     <Button
-        android:id="@+id/BuyerButton"
+        android:id="@+id/ButtonPembeli"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buyer" />
+        android:text="Data Pembeli" />
 
     <Button
         android:id="@+id/BundleButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bundles" />
+        android:text="Data Paket" />
 
     <Button
         android:id="@+id/blindboxesbutton"
