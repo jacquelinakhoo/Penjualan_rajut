@@ -8,20 +8,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Menu Data Paket Kredit"
+        android:text="Menu Data Pembelian Cash"
         android:textAlignment="center"
         android:textSize="22sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/ButtonTambah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF69B4"
-        android:text="Tambah Data"/>
+        android:text="Tambah Data" />
 
     <ListView
-        android:id="@+id/listpaket"
+        android:id="@+id/listbayarcash"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </LinearLayout>
