@@ -11,8 +11,7 @@
         android:text="Tambah Data Barang"
         android:textAlignment="center"
         android:textSize="22sp"
-        android:textstyle="bold" />
-    
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/Merk"
@@ -20,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/edittYPE"
@@ -28,29 +27,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/editwarna"
         android:hint="warna mobil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_marginBottom="16dp"
-
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/editharga"
         android:hint="Harga Mobil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:layout_marginBottom="16dp"
-
-
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/CreationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
         android:text="Save" />
+</LinearLayout>

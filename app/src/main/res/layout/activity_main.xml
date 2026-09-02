@@ -11,41 +11,47 @@
         android:text="welcome to my shop"
         android:textAlignment="center"
         android:textSize="22sp"
-        android:textstyle="bold" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/ButtonDatamobil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
         android:text="Data Mobil" />
 
     <Button
         android:id="@+id/ButtonPembeli"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
         android:text="Data Pembeli" />
 
     <Button
-        android:id="@+id/BundleButton"
+        android:id="@+id/ButtonPaket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
         android:text="Data Paket" />
 
     <Button
-        android:id="@+id/blindboxesbutton"
+        android:id="@+id/ButtonBeliCash"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Blindbox" />
+        android:backgroundTint="#FF69B4"
+        android:text="Data Beli Cash" />
 
     <Button
-        android:id="@+id/CustomButton"
+        android:id="@+id/ButtombeliKredit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Custom" />
+        android:backgroundTint="#FF69B4"
+        android:text="Data Beli Kredit" />
 
     <Button
-        android:id="@+id/SalesButton"
+        android:id="@+id/ButtonCicilan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sales" />
+        android:backgroundTint="#FF69B4"
+        android:text="Data Bayar Cicilan" />
 </LinearLayout>

@@ -8,18 +8,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Crochet Data Menu"
+        android:text="Menu Data Mobil"
         android:textAlignment="center"
         android:textSize="22sp"
-        android:textstyle="bold" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/AddDataButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
         android:text="Add Data" />
+
     <ListView
         android:id="@+id/crochetlist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
