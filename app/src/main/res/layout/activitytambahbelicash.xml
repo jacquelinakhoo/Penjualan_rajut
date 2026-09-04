@@ -7,58 +7,22 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Tambah Data Beli Cash"
+        android:text="Menu data pembelian cash "
         android:textAlignment="center"
         android:textSize="22sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editodebelicash"
-        android:hint="Kode Beli Cash"
-        android:inputType="text"
+        android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="No KTP Pembeli"
-        android:layout_marginBottom="16dp"
-        android:textAlignment="viewStart"
-        android:textSize="13dp"
-        android:textStyle="normal"
-        />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="16dp"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edittanggal"
-        android:hint="Tanggal Beli Cash"
-        android:focusable="false"
-        android:clickable="true"
-        android:layout_marginBottom="16dp"/>
-
-    <EditText
-
-        android:id="@+id/editbayar"
-        android:hint="Total Bayar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_marginBottom="10dp"/>
 
     <Button
-
-        android:id="@+id/tombolsimpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simpan" />
+        android:text="tambah "
+        android:id="@+id/tomboltambah"
+        android:backgroundTint="#FF69B4"/>
 
-    <<</LinearLayout>
+    <ListView
+        android:id="@+id/listbayarcash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

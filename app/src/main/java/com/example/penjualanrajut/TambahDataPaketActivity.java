@@ -1,13 +1,12 @@
 package com.example.penjualanrajut;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DataMobilActivity extends AppCompatActivity {
+public class TambahDataPaketActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activityaddmobil);
+        setContentView(R.layout.acitivtytambahdatapaket);
     }
 }

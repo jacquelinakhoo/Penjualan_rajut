@@ -4,22 +4,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DataMobilActivity extends AppCompatActivity {
-    Button btnDataMobil;
+public class DataBeliCashActivity extends AppCompatActivity {
+    Button btnTambah;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activitymenumobil);
+        setContentView(R.layout.activitydatabayarcash);
 
-        btnDataMobil = findViewById(R.id.AddDataButton);
-
-        btnDataMobil.setOnClickListener(new View.OnClickListener() {
+        btnTambah = findViewById(R.id.ButtonTambah);
+        btnTambah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DataMobilActivity.this, TambahDataMobilActivity.class);
+                Intent intent = new Intent(DataBeliCashActivity.this, TambahBeliCashActivity.class);
                 startActivity(intent);
             }
         });

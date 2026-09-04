@@ -22,6 +22,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".DataMobilActivity"/>
+        <activity android:name=".TambahDataMobilActivity"/>
+        <activity android:name=".DataPembeliActivity"/>
+        <activity android:name=".TambahDataPembeliActivity"/>
+        <activity android:name=".DataPaketActivity"/>
+        <activity android:name=".TambahDataPaketActivity"/>
+        <activity android:name=".DataBeliKreditActivity"/>
+        <activity android:name=".TambahBeliKreditActivity"/>
+        <activity android:name=".DataCicilanActivity"/>
+        <activity android:name=".TambahCicilanActivity"/>
+        <activity android:name=".DataBeliCashActivity"/>
+        <activity android:name=".TambahBeliCashActivity"/>
     </application>
 
 </manifest>

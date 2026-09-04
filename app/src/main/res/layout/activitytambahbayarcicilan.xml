@@ -22,14 +22,6 @@
         android:inputType="text"
         android:layout_marginBottom="16dp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Tambah Data Pembayaran Cicilan"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editkodecicilan"
