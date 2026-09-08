@@ -66,7 +66,7 @@ public class DataMobilActivity extends AppCompatActivity {
         protected String doInBackground(Void... voids) {
             StringBuilder result = new StringBuilder();
             try {
-                URL url = new URL("http://10.0.2.2/penjualanmobil/Tampilmobil.php");
+                URL url = new URL("http://192.168.137.166/penjualanmobil/tampilmobil.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
@@ -110,11 +110,11 @@ public class DataMobilActivity extends AppCompatActivity {
 
                 for (int i = 0; i < jsonArray.length(); i++) {
                     JSONObject obj = jsonArray.getJSONObject(i);
-                    String id = obj.getString("kode_mobil");
+                    String id = obj.getString("kodemobil");
                     String merk = obj.getString("merk");
                     String type = obj.getString("type");
                     String warna = obj.getString("warna");
-                    int harga = obj.getInt("harga");
+                    String harga = obj.getString("harga");
 
                     idList.add(id);
                     itemList.add("Kode\t" + id +
