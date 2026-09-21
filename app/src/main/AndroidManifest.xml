@@ -35,6 +35,7 @@
         <activity android:name=".TambahCicilanActivity"/>
         <activity android:name=".DataBeliCashActivity"/>
         <activity android:name=".TambahBeliCashActivity"/>
+        <activity android:name=".EditMobilActivity" android:exported="true" />
     </application>
 
 </manifest>

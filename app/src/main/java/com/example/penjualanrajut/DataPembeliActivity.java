@@ -62,7 +62,7 @@ public class DataPembeliActivity extends AppCompatActivity {
         protected String doInBackground(Void... voids) {
             StringBuilder result = new StringBuilder();
             try {
-                URL url = new URL("http://192.168.137.166/penjualanmobil/Tampilpembeli.php");
+                URL url = new URL("http://192.168.1.4/penjualanmobil/Tampilpembeli.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 

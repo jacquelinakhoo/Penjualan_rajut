@@ -62,7 +62,7 @@ public class DataPaketActivity extends AppCompatActivity {
         protected String doInBackground(Void... voids) {
             StringBuilder result = new StringBuilder();
             try {
-                URL url = new URL("http://192.168.137.166/penjualanmobil/Tampilpaket.php");
+                URL url = new URL("http://192.168.1.4/penjualanmobil/Tampilpaket.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
