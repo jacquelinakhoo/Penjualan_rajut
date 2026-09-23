@@ -66,7 +66,7 @@ public class DataMobilActivity extends AppCompatActivity {
         protected String doInBackground(Void... voids) {
             StringBuilder result = new StringBuilder();
             try {
-                URL url = new URL("http://192.168.137.166/penjualanmobil/tampilmobil.php");
+                URL url = new URL("http://192.168.0.11/penjualanmobil/tampilmobil.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
