@@ -73,7 +73,7 @@ public class EditMobilActivity extends AppCompatActivity {
             String harga = params[4];
 
             try {
-                URL url = new URL("http://192.168.1.4/penjualanmobil/editmobil.php");
+                URL url = new URL(Config.URL_EDIT_MOBIL);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setDoOutput(true);

@@ -2,56 +2,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="welcome to my shop"
+        android:layout_marginBottom="24dp"
+        android:text="Halaman Login"
         android:textAlignment="center"
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/ButtonDatamobil"
+    <EditText
+        android:id="@+id/edituser"
+        android:hint="Username"
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FF69B4"
-        android:text="Data Mobil" />
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editpass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
 
     <Button
-        android:id="@+id/ButtonPembeli"
+        android:id="@+id/tombolsimpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF69B4"
-        android:text="Data Pembeli" />
-
-    <Button
-        android:id="@+id/ButtonPaket"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF69B4"
-        android:text="Data Paket" />
-
-    <Button
-        android:id="@+id/ButtonBeliCash"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF69B4"
-        android:text="Data Beli Cash" />
-
-    <Button
-        android:id="@+id/ButtombeliKredit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF69B4"
-        android:text="Data Beli Kredit" />
-
-    <Button
-        android:id="@+id/ButtonCicilan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF69B4"
-        android:text="Data Bayar Cicilan" />
+        android:text="Login" />
 </LinearLayout>

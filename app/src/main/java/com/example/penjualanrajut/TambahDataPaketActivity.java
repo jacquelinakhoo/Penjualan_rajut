@@ -53,7 +53,7 @@ public class TambahDataPaketActivity extends AppCompatActivity {
     }
 
     private void simpanData(final String kodepaket, final String uangmuka, final String tenor, final String bunga) {
-        String url = "http://192.168.1.4/penjualanmobil/tambahpaket.php";
+        String url = Config.URL_TAMBAH_PAKET;
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {

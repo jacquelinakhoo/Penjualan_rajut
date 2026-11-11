@@ -2,27 +2,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Menu data pembelian cash "
+        android:layout_marginBottom="16dp"
+        android:text="Tambah Data Beli Cash"
         android:textAlignment="center"
         android:textSize="22sp"
-        android:textStyle="bold"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editkodecash"
+        android:hint="Kode Beli Cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="No KTP Pembeli"
+        android:textAlignment="viewStart"
+        android:textSize="13sp"
+        android:textStyle="normal" />
+
+    <Spinner
+        android:id="@+id/spinnerktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Kode Mobil"
+        android:textAlignment="viewStart"
+        android:textSize="13sp"
+        android:textStyle="normal" />
+
+    <Spinner
+        android:id="@+id/spinnerkodemobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edittanggal"
+        android:hint="Tanggal Beli Cash"
+        android:inputType="date"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"/>
 
     <Button
+        android:id="@+id/tombolsimpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="tambah "
-        android:id="@+id/tomboltambah"
-        android:backgroundTint="#FF69B4"/>
-
-    <ListView
-        android:id="@+id/listbayarcash"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:text="Simpan" />
 
 </LinearLayout>

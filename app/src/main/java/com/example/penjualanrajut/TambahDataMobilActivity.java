@@ -55,7 +55,7 @@ public class TambahDataMobilActivity extends AppCompatActivity {
     }
 
     private void simpanData(final String kode, final String merk, final String tipe, final String warna, final String harga) {
-        String url = "http://192.168.1.4/penjualanmobil/tambahmobil.php";
+        String url = Config.URL_TAMBAH_MOBIL;
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {

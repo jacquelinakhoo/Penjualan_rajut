@@ -53,8 +53,7 @@ public class TambahDataPembeliActivity extends AppCompatActivity {
     }
 
     private void simpanData(final String ktp, final String nama, final String alamat, final String telp) {
-        String url = "http://192.168.1.4/penjualanmobil/tambahpembeli.php";
-
+        String url = Config.URL_TAMBAH_PEMBELI;
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override

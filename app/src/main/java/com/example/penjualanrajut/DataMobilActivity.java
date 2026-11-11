@@ -80,7 +80,7 @@ public class DataMobilActivity extends AppCompatActivity {
         protected String doInBackground(Void... voids) {
             StringBuilder result = new StringBuilder();
             try {
-                URL url = new URL("http://192.168.1.4/penjualanmobil/tampilmobil.php");
+                URL url = new URL(Config.URL_TAMPIL_MOBIL);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
@@ -186,7 +186,7 @@ public class DataMobilActivity extends AppCompatActivity {
             String id = params[0];
             positionToDelete = Integer.parseInt(params[1]);
             try {
-                URL url = new URL("http://192.168.1.4/penjualanmobil/hapusmobil.php");
+                URL url = new URL(Config.URL_HAPUS_MOBIL);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");

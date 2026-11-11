@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Menu Manager\nLaporan Showroom"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tombolbayarcash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
+        android:text="Laporan Pembelian Cash" />
+
+    <Button
+        android:id="@+id/tombolbelikredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
+        android:text="Laporan Pembelian Kredit" />
+
+    <Button
+        android:id="@+id/tombolbayarcicil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF69B4"
+        android:text="Laporan Pembayaran Cicilan" />
+
+    <Button
+        android:id="@+id/tombollogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Logout" />
+</LinearLayout>

@@ -15,21 +15,12 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/editkodecicilan"
+        android:hint="Kode Bayar Cicilan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editkodecicilan"
-        android:hint="Kode Bayar Cicilan"
         android:inputType="text"
         android:layout_marginBottom="16dp"/>
-
-
-    <EditText
-        android:id="@+id/editkodecicilan"
-        android:hint="Kode Bayar Cicilan"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:inputType="text"
-android:layout_marginBottom="16dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -47,28 +38,21 @@ android:layout_marginBottom="16dp"/>
         android:layout_marginBottom="16dp" />
 
     <EditText
-
         android:id="@+id/edittanggal"
-
         android:hint="Tanggal Bayar Cicilan"
-
         android:focusable="false"
-
         android:clickable="true"
-
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
-
         android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/editcicilke"
         android:hint="Cicilan ke"
         android:inputType="number"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:layout_marginBottom="16dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
 
     <EditText
         android:id="@+id/editbayar"
@@ -79,17 +63,25 @@ android:layout_marginBottom="16dp"/>
         android:layout_marginBottom="16dp"/>
 
     <EditText
+        android:id="@+id/editsisake"
+        android:hint="Sisa Cicilan Ke"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
         android:id="@+id/editsisa"
         android:hint="Sisa Cicilan"
-android:inputType="number"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:layout_marginBottom="10dp"/>
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/tombolsimpan"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:text="Simpan" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
 
 </LinearLayout>
